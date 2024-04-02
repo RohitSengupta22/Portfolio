@@ -36,6 +36,7 @@ const Hero = () => {
         <section className='flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white' id='about'>
             <div className='lg:w-1/2 ssm:w-fit'>
                 <p className='text-white text-3xl'>I' AM</p>
+                <br></br>
                 <h1 className='text-white text-5xl mt-5'>{text}</h1>
                 <hr></hr>
                 <p className='text-white text-2xl mt-10'>As a MERN stack developer,
@@ -52,6 +53,9 @@ const Hero = () => {
 
 
 
+                </div>
+                <div className='mt-5'>
+               <a href='https://drive.google.com/file/d/1Vtudn25nydPjq3m86nrGoblJPwh90O5U/view?usp=drivesdk' target='_blank'><button className='border-solid border-2 border-yellow-600 p-3 rounded-md bg-yellow-600 hover:scale-105'>See My Resume</button></a> 
                 </div>
             </div>
             <div className='lg:w-1/2 ssm:w-fit'>

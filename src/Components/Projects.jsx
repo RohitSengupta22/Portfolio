@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaCircleArrowRight } from "react-icons/fa6";
+import { FaRegFileCode } from "react-icons/fa6";
+import { TbApi } from "react-icons/tb";
 
 
 const Projects = () => {
@@ -18,6 +20,8 @@ const Projects = () => {
                              Made using MERN stack, Bootstrap, Material-UI, and JWT for authentication</p>
                              <div className='flex justify-center mt-3 text-indigo-900'>
                              <a href='https://joyful-swan-fe7100.netlify.app/' target='_blank'><FaCircleArrowRight size={50}/></a>
+                             <a href='https://github.com/RohitSengupta22/Capstone_Guvi_Social_Connect_Frontend' target='_blank'><FaRegFileCode size={50} className='ml-3'/></a>
+                             <a href='https://github.com/RohitSengupta22/Capstone_Guvi_Social_Connect_Backend' target='_blank'><TbApi size={50} className='ml-3'/></a>
                              </div>
                         </div>
                     </Card>
@@ -29,6 +33,8 @@ const Projects = () => {
                              Made using MERN stack, Bootstrap, Material-UI, and JWT for authentication</p>
                              <div className='flex justify-center mt-3 text-indigo-900'>
                              <a href='https://projectoapp.netlify.app/' target='_blank'><FaCircleArrowRight size={50}/></a>
+                             <a href='https://github.com/RohitSengupta22/Projecto_frontend' target='_blank'><FaRegFileCode size={50} className='ml-3'/></a>
+                             <a href='https://github.com/RohitSengupta22/Projecto_Backend' target='_blank'><TbApi size={50} className='ml-3'/></a>
                              </div>
                         </div>
                     </Card>
@@ -41,6 +47,8 @@ const Projects = () => {
 
                              <div className='flex justify-center mt-3 text-indigo-900'>
                              <a href='https://chatappmain.netlify.app/' target='_blank'><FaCircleArrowRight size={50}/></a>
+                             <a href='https://github.com/RohitSengupta22/Chat_App' target='_blank'><FaRegFileCode size={50} className='ml-3'/></a>
+                             <a href='https://github.com/RohitSengupta22/Chat_App_Backedn' target='_blank'><TbApi size={50} className='ml-3'/></a>
                              </div>
                         </div>
                     </Card>
@@ -52,6 +60,8 @@ const Projects = () => {
 
                              <div className='flex justify-center mt-3 text-indigo-900'>
                              <a href='https://foodappdeployed.netlify.app/' target='_blank'><FaCircleArrowRight size={50}/></a>
+                             <a href='https://github.com/RohitSengupta22/FoodApp_Customer_Frontend' target='_blank'><FaRegFileCode size={50} className='ml-3'/></a>
+                             <a href='https://github.com/RohitSengupta22/FoodApp_Customer_Backend' target='_blank'><TbApi size={50} className='ml-3'/></a>
                              </div>
                         </div>
                     </Card>
@@ -64,6 +74,8 @@ const Projects = () => {
 
                              <div className='flex justify-center mt-3 text-indigo-900'>
                              <a href='https://foodappdeployedadmin.netlify.app/' target='_blank'><FaCircleArrowRight size={50}/></a>
+                             <a href='https://github.com/RohitSengupta22/FoodApp_Admin_frontend' target='_blank'><FaRegFileCode size={50} className='ml-3'/></a>
+                             <a href='https://github.com/RohitSengupta22/Food_App_Admin_Backend' target='_blank'><TbApi size={50} className='ml-3'/></a>
                              </div>
                         </div>
                     </Card>
