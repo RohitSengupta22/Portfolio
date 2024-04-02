@@ -7,12 +7,12 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Experience from './Experience';
 import Footer from './Footer';
+import { FaSquareWhatsapp } from "react-icons/fa6";
 
 const Main = () => {
   useEffect(() => {
     AOS.init({ // Initialize AOS
       duration: 1000, // Animation duration
-      
       mirror: false // Whether elements should animate out while scrolling past them
     });
   }, []);
@@ -36,6 +36,10 @@ const Main = () => {
         <Experience />
       </div>
       <Footer />
+      {/* WhatsApp Icon */}
+      <div className="fixed bottom-11 right-10">
+        <a href='https://wa.me/918658175794' target='_blank'><FaSquareWhatsapp className=' text-green-500' size={60} /></a>
+      </div>
     </div>
   );
 };
